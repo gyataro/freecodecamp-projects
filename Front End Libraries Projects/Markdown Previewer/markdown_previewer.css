@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100|Roboto+Mono');
+
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F1F2B5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header {
+  width: 100%;
+  height: 56dp;
+  background-color: #212121;
+}
+
+.title {
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  color: #fafafa;
+}
+
+.window-title {
+  margin: 0;
+  padding: 10px 20px 20px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #fafafa;
+}
+
+.appContainer {
+  width: 100%;
+}
+
+.editorMin, .rendererMin {
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.editorMax, .rendererMax {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+#console-bar {
+  background-color: #212121;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#console-window {
+  margin: auto;
+  width: 100%;
+  color: #fafafa;
+}
+
+textarea {
+  resize: none;
+  outline: none !important;
+  margin: 0;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #424242;
+  border: none;
+  color: white;
+  min-height: 350px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0px 0px 10px 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#preview {
+  resize: none;
+  outline: none !important;
+  margin: 0;
+  padding: 10px;
+  padding-left: 15px;
+  background-color: #424242;
+  border: none;
+  color: white;
+  min-height: 350px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0px 0px 10px 10px;
+}
+   
+button {
+  float: right;
+  border: none;
+  background-color: #212121;
+}
+
+.expand {
+  position: relative;
+  float: right;
+  color: white;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #757575; 
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .editor, .renderer {
+    width: 100%;
+  }
+}
+
+
+
+
+
+

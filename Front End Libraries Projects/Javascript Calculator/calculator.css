@@ -1,0 +1,70 @@
+body {
+  min-width: 50%;
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.base {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  background-color: black;
+  padding: 0px 0px 20px 0px;
+  color: white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 20px;
+}
+
+.display {
+  height: 100px;
+  padding: 50px 0px 0px 0px;
+}
+
+.counter {
+  font-size: calc(20px + (55 - 20) * ((100vw - 300px) / (1600 - 300)));
+  height: 70%;
+  padding: 0px 32px 0px 0px;
+  text-align: right;
+}
+
+.sub-counter {
+  font-size: calc(12px + (25 - 12) * ((100vw - 300px) / (1600 - 300)));
+  height: 30%;
+  padding: 0px 32px 0px 0px;
+  text-align: right;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button {
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  cursor: pointer;
+  font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.button:active {
+  background-color: gray;
+}
+
+.func {
+  background-color: #DCDCDC;
+  color: black;
+}
+
+.submit {
+  background-color: red;
+  color: white
+}
+
+

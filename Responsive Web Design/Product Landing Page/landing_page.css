@@ -1,0 +1,282 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+}
+
+ul.topnav li {
+  float: right;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #000337;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  color: white;
+  background-color: #000337;
+  transition-duration: 300ms;
+}
+
+.hero-image {
+  top: 75px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/xteoh/image/upload/v1547960164/hero1.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-button {
+  background-color: #000337;
+  border: 2px solid #000337;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: #000337;
+}
+
+.features {
+  position: relative;
+  width: 100%;
+  top: 75px;
+  padding-top: 16px;
+}
+
+.col-33-feature {
+  float: left;
+  width: 33.33%;
+  padding-top: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#feature-title {
+  font-size: 25px;
+}
+
+.feature-subtitle {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.feature-paragraph {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+#pricing-section {
+  padding-top: 450px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.col-33-pricing {
+  position: relative;
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+}
+
+.pricing {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pricing:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.pricing .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.pricing li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.pricing .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.pricing-button {
+  background-color: #000337;
+  border-radius: 20px;
+  color: white;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#barrier {
+  background-color: white;
+  height: 550px;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 518px;
+}
+
+input[type=email] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border: 3px solid #555;
+}
+
+input[type=submit] {
+  background-color: #000337;
+  width: 300px;
+  border-radius: 25px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#subscribe-section {
+  padding-top: 100px;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+#footer {
+  color: white;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  background-color: #000337;
+  height: 90px;
+}
+
+@media screen and (max-width: 700px) {
+  ul.topnav li {
+  	float: none;
+  }
+
+  ul.topnav {
+  	padding-bottom: 10px;
+  }
+  
+  header {
+    position: relative;
+  }
+
+  #header-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .hero-image, .features {
+  	top: 0;
+  }
+
+  .col-33-feature {
+    float: none;
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .col-33-pricing {
+    width: 100%;
+  }
+
+  #pricing-section {
+    padding-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #video-section {
+    padding-top: 900px;
+  }
+
+  #video {
+  	width: 100%;
+  	height: 250px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  #pricing-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+

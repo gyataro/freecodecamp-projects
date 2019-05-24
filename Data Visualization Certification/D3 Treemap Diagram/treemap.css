@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 0px 50px 0px;
+  min-width: 1200px;
+  min-height: 2000px;
+}
+
+body #container {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  font-size: 3em;
+  font-family: Arial;
+  padding: 20px 0px 0px 0px;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: Arial;
+  padding: 5px 0px 50px 0px;
+}
+
+#tooltip {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  position: absolute;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  pointer-events: none; 
+}
+
+#legend {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}

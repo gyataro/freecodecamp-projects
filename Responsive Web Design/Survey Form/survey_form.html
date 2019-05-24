@@ -1,0 +1,130 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+<link rel = "stylesheet" href = "mainCSS.css">
+</head>
+
+<body>
+<div id="page">
+	<div id="hero">
+	</div>
+
+	<div id="surveycontainer">
+		<h1 id="title" align="middle">Cafe Survey</h1>
+		<p id="description" align="middle">Let us know how we can serve you better</p>
+
+		<form id="survey-form">
+			<div class="form-row">
+				<div class="form-col-25">
+					<label id="name-label" for="name"><p><b>* Name :</b></p></label>
+				</div>
+				<div class="form-col-75">
+					<input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-col-25">
+					<label id="email-label" for="email"><p><b>* Email :</b></p></label>
+				</div>
+				<div class="form-col-75">
+					<input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-col-25">
+					<label id="number-label" for="age"><p><b>* Age :</b></p></label>
+				</div>
+				<div class="form-col-75">
+					<input autofocus type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age" required align="left">
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-col-25">
+					<p><b>Your current role :</b></p>
+				</div>
+				<div class="form-col-75">
+					<select name="currentPos" id="dropdown" class="dropdown" align="left">
+					<option disabled selected value>Select an option</option>
+					<option value="jobFull">Full time job</option>
+					<option value="jobPart">Part time job</option>
+					<option value="student">Student</option>
+					<option value="others">Others</option>
+				    </select>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-col-25">
+					<p><b>How did you hear about us :</b></p>
+				</div>
+				<div class="form-col-75">
+					<select name="recommend" id="dropdown" class="dropdown" align="left">
+					<option disabled selected value>Select an option</option>
+					<option value="heard">Word of mouth</option>
+					<option value="print">Printed materials</option>
+					<option value="online">Online advertisements</option>
+					<option value="explore">Exploring around</option>
+					<option value="others">Others</option>
+				    </select>
+				</div>
+			</div>
+
+			<br>
+			<br>
+
+			<div class="form-row">
+				<div class="form-col-25">
+					<p><b>What type of customer are you :</b></p>
+				</div>
+				<div class="form-col-radiobutton-75">
+					<ul style="list-style: none;">
+						<li class="radio"><input name="radio-buttons" value="1" type="radio" class="customerType"><label>Regular</label></li>
+						<li class="radio"><input name="radio-buttons" value="2" type="radio" class="customerType"><label>Relatively new</label></li>
+						<li class="radio"><input name="radio-buttons" value="2" type="radio" class="customerType"><label>First-timer</label></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-col-25">
+					<p><b>What do you love about us :</b></p>
+				</div>
+				<div class="form-col-radiobutton-75">
+					<ul style="list-style: none;">
+						<li class="checkbox"><input name="prefer" value="1" type="checkbox" class="userRatings"><label>Food & Beverages</label></li>
+						<li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings"><label>Staff & Service</label></li>
+						<li class="checkbox"><input name="prefer" value="3" type="checkbox" class="userRatings"><label>Pricing</label></li>
+						<li class="checkbox"><input name="prefer" value="4" type="checkbox" class="userRatings"><label>Facilities & amenities</label></li>
+						<li class="checkbox"><input name="prefer" value="5" type="checkbox" class="userRatings"><label>Location accessibility</label></li>
+						<li class="checkbox"><input name="prefer" value="5" type="checkbox" class="userRatings"><label>Environment, ambient & music</label></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-col-25">
+					<p><b>Any Comments or Suggestions?</b></p>
+				</div>
+				<div class="form-col-textbox-75">
+			        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+				</div>
+			</div>
+
+			<div id="form-row-submit">
+              <input type="submit" value="Submit" id="submit">
+    		</div>
+		</form> 
+	</div>
+
+	<div class="footer" style="clear: both;">
+	</div>
+</div>
+
+</body>
+</html>

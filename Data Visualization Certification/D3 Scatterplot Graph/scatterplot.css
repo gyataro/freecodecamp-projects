@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C0D6DF;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#subtitle {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 20px 0px;
+  font-size: 1em;
+}
+
+#legend {
+  box-shadow: 5px 10px #888888;
+}
+
+#container {
+  width: 900px;
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: white;
+}
+
+.svgcanvas {
+  display: block;
+  margin: auto;
+}
+
+#tooltip {
+  color: white;
+  position: absolute;
+  background-color: black;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}

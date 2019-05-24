@@ -1,0 +1,196 @@
+body{
+  margin: 0;
+  padding-top: 0;
+}
+
+form {
+  padding-bottom: 50px;
+}
+
+#page {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#hero {
+  position: relative;
+  height: 15em;
+  background-image: url("https://res.cloudinary.com/xteoh/image/upload/v1547959822/hero_survey.jpg");
+  background-repeat: repeat-x;
+  background-size: 500px;
+}
+
+.footer {
+  z-index: -1;
+  position: fixed;
+  height: 100px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  background-color: brown;
+  background-image: linear-gradient(to bottom right, #F3C77D, #804233);
+}
+
+#surveycontainer {
+  position: absolute;
+  top: 5em;
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  width: 70%;
+  height: auto;
+  left: 0; 
+  right: 0; 
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-left: auto; 
+  margin-right: auto; 
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}	
+
+#title {
+  font-size: 2em;
+}
+
+#description {
+  font-size: 1em;
+}
+
+#survey-form {
+  padding-top: 20px;
+}
+
+.form-row {
+  padding-top: 10px;
+}
+/* Clears floats*/
+.form-row:after {
+  content: "";
+  display: table;
+  clear: both;  
+}
+
+.form-col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  text-align: right;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*Actually covers only 60% width, but not visible due to float clearing*/
+.form-col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-col-radiobutton-75 {
+  float: left;
+  width: 60%;
+}
+
+.form-col-textbox-75 {
+  float: left;
+  width: 60%;
+}
+
+#form-row-submit {
+  padding-top: 50px;
+}
+
+input[type=text], input[type=email], textarea{
+  width: 90%;
+  padding: 12px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+select {
+  width: 50%;
+  padding: 12px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=number] {
+  width: 10%;
+  padding: 12px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.radio, .checkbox {
+  top: -15px;
+  left: -25px;
+  position: relative;
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .form-col-25, .form-col-75, input[type=submit]{
+  	width: 100%;
+  	margin-top: 0;
+  	text-align: left;
+  }
+
+  .form-col-radiobutton-75 {
+    float: left;
+    width: 100%;
+  }
+
+  .form-col-textbox-75 {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  .footer {
+    height: 50px;
+  }
+
+  input[type=text], input[type=email], textarea {
+  	margin-left: 0px;
+  }
+
+  input[type=number] {
+  	margin-left: 0px;
+  	width: 90%;
+  }
+
+  select {
+  	margin-left: 0px;
+  	width: 50%;
+  }
+
+  .radio, .checkbox {
+    top: -40px;
+    left: -45px;
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+  }
+}

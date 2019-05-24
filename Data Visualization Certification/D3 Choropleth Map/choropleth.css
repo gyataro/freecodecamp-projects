@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 0px 50px 0px;
+}
+
+body #container {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  font-size: 3em;
+  padding: 20px 0px 0px 0px;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px 0px 50px 0px;
+}
+
+.county {
+  stroke: none;
+}
+
+.county:hover {
+  fill: red;
+}
+
+.county-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+#legend rect {
+  stroke-width: 1;
+  stroke: black;
+}
+
+#tooltip {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  position: absolute;
+  height: auto;
+  width: 150px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+}

@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  width: auto;
+}
+
+#title {
+  font-size: 2em;
+  padding: 20px 0px 5px 0px;
+}
+
+#description {
+  font-size: 1.2em;
+  padding: 0px 0px 20px 0px;
+}
+
+#y-axis path, #y-axis line {
+  fill: none;
+  stroke-width: 0px;
+}
+
+.cell:hover {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+#tooltip {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  position: absolute;
+  height: auto;
+  width: 120px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#tooltip::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+

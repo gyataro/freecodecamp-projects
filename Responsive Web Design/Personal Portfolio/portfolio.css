@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#divider {
+  display: none;
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/xteoh/image/upload/v1552958544/hero-bg.jpg");
+}
+
+.hero-text {
+  color: white;
+  font-size: 5vw;
+  font-family: 'Merriweather', serif;
+  margin-top: 100px;
+}
+
+.hero-subtitle {
+  color: white;
+  font-size: 2.5vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#welcome-section {
+  margin-top: 250px;
+  height: 100vh;
+}
+
+#projects {
+  margin-top: 100px;
+}
+
+.card-shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-shadow:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#contact {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.icon {
+  font-size: 100px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.contact-button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #scroll-info {
+    position: absolute;
+    top: 90vh;
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #welcome-section {
+    position: relative;
+    margin-top: 200px;
+    height: 80vh;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text {
+    font-size: 30px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+  
+  #projects {
+    margin-top: 50px;
+  }
+  
+  #contact {
+    margin-top: 150px;
+  }
+  
+  #divider {
+    margin-bottom: 10px;
+    display: block;
+  }
+} 
+
+
+
+
+ 

@@ -1,0 +1,130 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+  <!-- FontAwesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark" id="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <i class="fas fa-address-book navbar-brand"></i>
+      </div>
+      <a class="navbar-text" href="#">Portfolio</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <h2 id="scroll-info"><i class="fas fa-arrow-circle-down"></i> <i>Scroll for more</i></h2>
+  </div>
+  
+  <section id="welcome-section">
+  <div class="container">
+    <h1 class="text-left hero-text">Hi, I'm <b>Xiwen</b>.</h1>
+    <h2 class="text-left hero-subtitle">I design and develop professional websites</h2>
+  </div>
+  </section>
+  
+  <section id="projects">
+    <div class="container">
+      
+      <h2 class="text-left hero-subtitle" >My projects</h2><br>
+      
+      <div class="row">        
+      <div class="col-md-4 col-sm-12">
+      <div class="card card-shadow project-card" style="width: 100%; height: 100%">
+        <img class="card-img-top" src="https://res.cloudinary.com/xteoh/image/upload/v1553044502/portfolio-project1.jpg" style="height: 120px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title project-tile">Auretrio Science</h5>
+          <p class="card-text">A wordpress blog dedicated to maths and science articles.</p>
+          <a href="#" class="btn btn-secondary">Learn more</a>
+        </div>
+      </div>
+      </div>
+        
+      <div class="col-sm-12" id="divider">
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+      <div class="card card-shadow" style="width: 100%; height: 100%">
+        <img class="card-img-top" src="https://res.cloudinary.com/xteoh/image/upload/v1553044497/portfolio-project2.png" style="height: 120px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title project-tile">Parova</h5>
+          <p class="card-text">A landing page for a AI management system startup.</p>
+          <a href="#" class="btn btn-secondary">Learn more</a>
+        </div>
+      </div>
+      </div>
+        
+      <div class="col-sm-12" id="divider">
+      </div>
+        
+      <div class="col-md-4 col-sm-12">
+      <div class="card card-shadow" style="width: 100%; height: 100%">
+        <img class="card-img-top" src="https://res.cloudinary.com/xteoh/image/upload/v1553044493/portfolio-project3.png" style="height: 120px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title project-tile">Atlantic Saltworks</h5>
+          <p class="card-text">A website for a private salt distribution company.</p>
+          <a href="#" class="btn btn-secondary">Learn more</a>
+        </div>
+      </div>
+      </div>   
+        
+      </div>    
+    </div>
+  </section>
+  
+  <div class="container" id="contact">
+    <h2 class="text-left hero-subtitle">Contact me</h2><br>
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-dark contact-button">GitHub<br><i class="fab fa-github icon"></i></button>
+      </div>
+      <div class="col">
+        <a href="https://www.freecodecamp.org/fcc43cc8405-31ce-4d31-9672-df3e420f09a4" target="_blank"  id="profile-link"><button class="btn btn-success contact-button">FreeCodeCamp<br>
+          <i class="fab fa-free-code-camp icon"></i></button></a>
+      </div>
+      <div class="col">
+        <button class="btn btn-primary contact-button">LinkedIn<br><i class="fab fa-linkedin-in icon"></i></i></button>
+      </div>
+      <div class="col">
+        <button class="btn btn-info contact-button">Twitter<br><i class="fab fa-twitter icon"></i></button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+  <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+
+</html>
