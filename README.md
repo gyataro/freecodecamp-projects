@@ -47,7 +47,7 @@ Front End Libraries Projects ([Proof](https://www.freecodecamp.org/certification
 3. Javascript Calculator
    1. Made with React and MathJS, basic calculator with backspace and simple operator functionality.
    2. Additional dependencies: Math.js
-   3. Codepen: https://codepen.io/XTeoh/pen/QREgqr
+   3. Codepen: https://codepen.io/XTeoh/full/QREgqr
   
 4. Pomodoro Clock
    1. A timer with settings, pause/resume, reset functions.
@@ -82,5 +82,9 @@ Data Visualization Certification ([Proof](https://www.freecodecamp.org/certifica
 Apis And Microservices Certification
 ---
 1. Timestamp Microservice
-   1. An API service that provides a date timestamp in UTC and UNIX format
+   1. An API service that provides a date timestamp in UTC and UNIX format, made with Express & Node.js
    2. Glitch: https://puffy-locket.glitch.me/
+   
+2. Request Header Parser Microservice
+   1. Gets the IP address, preferred languages and system infos for client's device, made with Express & Node.js
+   2. Glitch: https://sassy-parsnip.glitch.me/
