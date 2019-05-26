@@ -88,3 +88,7 @@ Apis And Microservices Certification
 2. Request Header Parser Microservice
    1. Gets the IP address, preferred languages and system infos for client's device, made with Express & Node.js
    2. Glitch: https://sassy-parsnip.glitch.me/
+   
+3. URL Shortener Microservice
+   1. Receives URL to be shortened, returns a shortened URL, made with Express, Node.js and Mongo.db
+   2. Glitch: https://funky-meteorite.glitch.me/
