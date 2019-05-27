@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h2>API Project: URL Shortener Microservice</h2>
+        <h3>User Story: </h3>
+        <ol>
+          <li>POST a URL to <code>https://funky-meteorite.glitch.me/api/shorturl/new</code> and receive a shortened URL in the JSON response.<br>Example : <code>{"original_url":"www.google.com","short_url":da37b1}</code></li>
+          <li>If an invalid URL did not follow this (<code>http(s)://www.example.com(/more/routes)</code>) format, the JSON response will contain an error like <code>{"error":"invalid URL"}</code><br></li>
+          <li>When you visit the shortened URL, it will redirect you to your original link.</li>
+        </ol>
+        
+        <h3>Short URL Creation </h3>
+        <p>
+          example: <code>POST https://funky-meteorite.glitch.me/api/shorturl/new</code> - <code>https://www.google.com</code>
+        </p>
+        <form action="api/shorturl/new" method="POST">
+          <label for="url_input">URL to be shortened</label>
+          <input id="url_input" type="text" name="url" value="https://www.freecodecamp.org">
+          <input type="submit" value="POST URL">
+        </form>
+        <h3>Example Usage:</h3>
+        <a href="https://thread-paper.glitch.me/api/shorturl/3">
+          https://funky-meteorite.glitch.me/api/shorturl/37a3b1
+        </a>
+
+        <h3>Will Redirect to:</h3>
+        <p>https://www.freecodecamp.org/forum/</p>
+      </div>
+      <div class="footer">
+        <p>
+          by <a href="https://www.freecodecamp.org">freeCodeCamp</a>
+        </p>
+      </div>
+   </body>
+
+
+</html>
