@@ -92,3 +92,7 @@ Apis And Microservices Certification
 3. URL Shortener Microservice
    1. Receives URL to be shortened, returns a shortened URL, made with Express, Node.js and Mongo.db
    2. Glitch: https://funky-meteorite.glitch.me/
+   
+4. Exercise Tracker REST API
+   1. Registers new users, store their exercise history and returns exercise log on request, made with Node.js, Express and Mongo.db
+   2. Glitch: https://satin-telescope.glitch.me/
