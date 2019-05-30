@@ -96,3 +96,8 @@ Apis And Microservices Certification
 4. Exercise Tracker REST API
    1. Registers new users, store their exercise history and returns exercise log on request, made with Node.js, Express and Mongo.db
    2. Glitch: https://satin-telescope.glitch.me/
+   
+5. File Metadata Microservice
+   1. Receives an uploaded file, returns file info in JSON format. Made with Express, Node.js, multer
+   2. Glitch: https://viridian-coin.glitch.me/
+
