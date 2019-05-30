@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>File Metadata</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+
+      <div class="container">
+        <h2>API Project: File Metadata Microservice</h2>
+        <h3>Overview:</h3>
+        <ol>
+          <li>When I submit something, I will receive the file name, and size in bytes within the JSON response.</li>
+        </ol>
+
+        <h3>Usage:</h3>
+        <p>
+          Please Upload a File ...
+        </p>
+        <div class="view">
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+            <input id="inputfield" type="file" name="upfile">
+            <input id="button" type="submit" value="Upload" onclick="move()">
+          </form>
+          
+          <div id="myProgress">
+            <div id="myBar"></div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          by 
+          <a href="https://github.com/Gern-Yataro">Xiwen</a>
+        </p>
+      </div>
+   </body>
+
+   <script>
+     function move() {
+       var elem = document.getElementById("myBar"); 
+       var width = 1;
+       var id = setInterval(frame, 10);
+       function frame() {
+         if (width >= 100) {
+           clearInterval(id);
+         } else {
+           width++; 
+           elem.style.width = width + '%'; 
+         }
+        }
+     }
+   </script>
+  
+</html>
