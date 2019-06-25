@@ -108,9 +108,13 @@ Information Security And Quality Assurance Certification
    2. Glitch: https://mercury-truck.glitch.me/
    
 2. Issue Tracker
-   1. Github-like version control issue tracker. Made with Express, Node.js
+   1. Github-like version control issue tracker. Made with Express, Node.js, mongoDB
    2. Glitch: https://buttercup-treatment.glitch.me/
    
 3. Personal Library
-   1. Stores book titles and display book information with comments on request. Made with Express, Node.js
+   1. Stores book titles and display book information with comments on request. Made with Express, Node.js, mongoDB
    2. Glitch: https://airy-product.glitch.me/
+   
+4. Stock Price Checker
+   1. NASDAQ stock price checker with user-like count system. Made with Express, Node.js, mongoDB, Alphaventure API
+   2. Glitch: https://picturesque-veil.glitch.me/
