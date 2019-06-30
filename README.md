@@ -1,5 +1,6 @@
 # Freecodecamp-Projects
 All my freecodecamp full stack web-development projects are located here
+My developer certification can be seen ([here](https://www.freecodecamp.org/certification/mrgernae/full-stack))
 
 Responsive Web Design Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
 ---
@@ -101,7 +102,7 @@ Apis And Microservices Certification ([Proof](https://www.freecodecamp.org/certi
    1. Receives an uploaded file, returns file info in JSON format. Made with Express, Node.js, multer
    2. Glitch: https://viridian-coin.glitch.me/
 
-Information Security And Quality Assurance Certification
+Information Security And Quality Assurance Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
 ---
 1. Metric-Imperial Converter
    1. Metric to imperial converter and vice-versa. Made with Express, Node.js
