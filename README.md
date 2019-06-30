@@ -1,6 +1,7 @@
 # Freecodecamp-Projects
 All my freecodecamp full stack web-development projects are located here
-My developer certification can be seen ([here](https://www.freecodecamp.org/certification/mrgernae/full-stack))
+
+My developer certification can be seen [here](https://www.freecodecamp.org/certification/mrgernae/full-stack)
 
 Responsive Web Design Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
 ---
