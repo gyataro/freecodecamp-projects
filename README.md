@@ -1,5 +1,5 @@
 # Freecodecamp-Projects
-All my freecodecamp full stack web-development projects are located here
+All my freecodecamp full stack web dev & Python projects
 
 My developer certification can be seen [here](https://www.freecodecamp.org/certification/mrgernae/full-stack)
 
