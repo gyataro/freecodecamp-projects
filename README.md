@@ -3,124 +3,70 @@ All my freecodecamp full stack web dev & Python projects
 
 My developer certification can be seen [here](https://www.freecodecamp.org/certification/mrgernae/full-stack)
 
-Responsive Web Design Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
+Responsive Web Design Certification ([Credentials](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
 ---
-1. Tribute Page
-   1. A tribute page dedicated to Alan Turing
-   2. Codepen: https://codepen.io/XTeoh/full/pqLJxO
-  
-2. Survey Form
-   1. An online survey form for a cafe
-   2. Codepen: https://codepen.io/XTeoh/full/GPdpex
-  
-3. Product Landing Page
-   1. A minimalistic landing page for Alantic Saltworks, a salt distribution company
-   2. Codepen: https://codepen.io/XTeoh/full/PXXojL
-   
-4. Technical Documentation
-   1. An online documentation for a plane produced by Mitsubishi Heavy Industries
-   2. Codepen: https://codepen.io/XTeoh/full/Nompdd
-   
-5. Personal Portfolio
-   1. My mockup personal portfolio
-   2. Codepen: https://codepen.io/XTeoh/full/aMjpdV
-   
-
-Javascript Algorithms & Data Structures Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
----
-1. Palindrome Checker
-2. Roman Numeral Converter
-3. Caesars Cipher
-4. US Telephone Number Validator
-5. Cash Register
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Tribute Page | A tribute page dedicated to Alan Turing | [Website](https://codepen.io/XTeoh/full/pqLJxO)
+2 | Survey Form | An online survey form for a cafe | [Website](https://codepen.io/XTeoh/full/GPdpex)
+3 | Product Landing Page | A minimalistic landing page for Alantic Saltworks, a salt distribution company | [Website](https://codepen.io/XTeoh/full/PXXojL)
+4 | Technical Documentation | An online technical documentation for a plane produced by Mitsubishi Heavy Industries | [Website](https://codepen.io/XTeoh/full/Nompdd)
+5 | Personal Portfolio | My first personal portfolio | [Website](https://codepen.io/XTeoh/full/aMjpdV)
 
 
-Front End Libraries Projects ([Proof](https://www.freecodecamp.org/certification/mrgernae/front-end-libraries))
+Javascript Algorithms & Data Structures Certification ([Credentials](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
 ---
-1. Random Quote Machine
-   1. Made with JQuery, using favqs API, allows copy to clipboard and tweet quote functonality
-   2. Additional dependencies: Granim.js
-   3. Codepen: https://codepen.io/XTeoh/full/RdEdyL
-   
-2. Markdown Previewer
-   1. Made with React, Github flavoured markdown format previewer
-   2. Codepen: https://codepen.io/XTeoh/full/NmPoap
-   
-3. Javascript Calculator
-   1. Made with React and MathJS, basic calculator with backspace and simple operator functionality.
-   2. Additional dependencies: Math.js
-   3. Codepen: https://codepen.io/XTeoh/full/QREgqr
-  
-4. Pomodoro Clock
-   1. A timer with settings, pause/resume, reset functions.
-   2. Codepen: https://codepen.io/XTeoh/full/wbzKGg
-   
-5. Drum Machine
-   1. A playable drum with two bank modes, volume settings and responsive mobile design
-   2. Codepen: https://codepen.io/XTeoh/full/RmGbeX
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Palindrome Checker | Check if a string is palindromic  | [Source](https://github.com/Gern-Yataro/Freecodecamp-Projects/blob/master/Javascript%20Algorithms%20%26%20Data%20Structures/palindrome_checker.js)
+2 | Roman Numeral Converter | Converts integers to Roman numerals | [Source](https://github.com/Gern-Yataro/Freecodecamp-Projects/blob/master/Javascript%20Algorithms%20%26%20Data%20Structures/roman_converter.js)
+3 | Caesars Cipher | A substitution cipher to encrypt strings | [Source](https://github.com/Gern-Yataro/Freecodecamp-Projects/blob/master/Javascript%20Algorithms%20%26%20Data%20Structures/caesars_cipher.js)
+4 | US Telephone Number Validator | Check if phone number is in valid US format | [Source](https://github.com/Gern-Yataro/Freecodecamp-Projects/blob/master/Javascript%20Algorithms%20%26%20Data%20Structures/telephone_validator.js)
+5 | Cash Register | Cash register system to calculate change in specific coins (e.g. x nickels y dimes) | [Source](https://github.com/Gern-Yataro/Freecodecamp-Projects/blob/master/Javascript%20Algorithms%20%26%20Data%20Structures/cash_register.js)
 
-Data Visualization Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/data-visualization))
----
-1. D3 Bar Chart
-   1. United States' GDP from 1947 to 2015, made with AJAX and D3.js
-   2. Codepen: https://codepen.io/XTeoh/full/NVgqNw
-   
-2. D3 Scatterplot Graph
-   1. An overview of doping in professional bicycle racing, made with D3.js
-   2. Codepen: https://codepen.io/XTeoh/full/XwgovP
-   
-3. D3 Heat Map
-   1. Monthly global land-surface temperature, made with D3.js
-   2. Codepen: https://codepen.io/XTeoh/full/RmZEoe
-   
-4. D3 Choropleth Map
-   1. US education attainment map by county, made with D3.js
-   2. Codepen: https://codepen.io/XTeoh/full/rgGvKy
-   
-5. D3 Treemap Diagram
-   1. Top 100 most sold video games, made with D3.js
-   2. Codepen: https://codepen.io/XTeoh/full/dEZEWQ
-   
-Apis And Microservices Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/apis-and-microservices))
----
-1. Timestamp Microservice
-   1. An API service that provides a date timestamp in UTC and UNIX format, made with Express & Node.js
-   2. Glitch: https://puffy-locket.glitch.me/
-   
-2. Request Header Parser Microservice
-   1. Gets the IP address, preferred languages and system infos for client's device, made with Express & Node.js
-   2. Glitch: https://sassy-parsnip.glitch.me/
-   
-3. URL Shortener Microservice
-   1. Receives URL to be shortened, returns a shortened URL, made with Express, Node.js and Mongo.db
-   2. Glitch: https://funky-meteorite.glitch.me/
-   
-4. Exercise Tracker REST API
-   1. Registers new users, store their exercise history and returns exercise log on request, made with Node.js, Express and Mongo.db
-   2. Glitch: https://satin-telescope.glitch.me/
-   
-5. File Metadata Microservice
-   1. Receives an uploaded file, returns file info in JSON format. Made with Express, Node.js, multer
-   2. Glitch: https://viridian-coin.glitch.me/
 
-Information Security And Quality Assurance Certification ([Proof](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
+Front End Libraries Projects ([Credential](https://www.freecodecamp.org/certification/mrgernae/front-end-libraries))
 ---
-1. Metric-Imperial Converter
-   1. Metric to imperial converter and vice-versa. Made with Express, Node.js
-   2. Glitch: https://mercury-truck.glitch.me/
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Random Quote Machine |  Generates random quotes; made with JQuery, GranimJS & favqs API, has copy to clipboard and tweet functon | [Website](https://codepen.io/XTeoh/full/RdEdyL)
+2 | Markdown Previewer | Previews Github flavored markdown (fancy text); made with React | [Website](https://codepen.io/XTeoh/full/NmPoap)
+3 | Javascript Calculator | A calculate webapp that can do basic operations, store previous value and undo inputs; made with React and MathJS | [Website](https://codepen.io/XTeoh/full/QREgqr)
+4 | Pomodoro Clock | A timer with duration settings, able to pause, resume & reset time; made with React | [Website](https://codepen.io/XTeoh/full/wbzKGg)
+5 | Drum Machine | A drum kit with two bank modes, volume settings & responsive mobile design, can be played via keyboard or mouse; made with React | [Website](https://codepen.io/XTeoh/full/RmGbeX)
+
+
+Data Visualization Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/data-visualization))
+---
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | D3 Bar Chart | United States' GDP from 1947 to 2015; made with AJAX & D3.js | [Website](https://codepen.io/XTeoh/full/pqLJxO)
+2 | D3 Scatterplot Graph | Cases of doping in professional bicycle racing; made with AJAX & D3.js | [Website](https://codepen.io/XTeoh/full/XwgovP)
+3 | D3 Heat Map | Monthly global land-surface temperature from 1753 to 2015; made with D3.js | [Website](https://codepen.io/XTeoh/full/RmZEoe)
+4 | D3 Choropleth Map | US education attainment map - percentage of adults age 25 and older with a bachelor's degree or higher, sorted by county; made with D3.js | [Website](https://codepen.io/XTeoh/full/rgGvKy)
+5 | D3 Treemap Diagram | Top 100 most sold video games by platform; made with D3.js | [Website](https://codepen.io/XTeoh/full/dEZEWQ)
+
    
-2. Issue Tracker
-   1. Github-like version control issue tracker. Made with Express, Node.js, mongoDB
-   2. Glitch: https://buttercup-treatment.glitch.me/
+Apis And Microservices Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/apis-and-microservices))
+---
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Timestamp Microservice | An API service that provides timestamp in UTC and UNIX format; made with Express & Node.js | [Website](https://puffy-locket.glitch.me/)
+2 | Request Header Parser Microservice | Gets the IP address, preferred language & system info of the client's device | [Website](https://sassy-parsnip.glitch.me/)
+3 | URL Shortener Microservice | Shortens a long URL which can be shared; made with Express, Node.js and Mongo.db | [Website](https://funky-meteorite.glitch.me/)
+4 | Exercise Tracker REST API | Registers new users, store their exercise history and returns exercise log on request; made with Node.js, Express and Mongo.db | [Website](https://satin-telescope.glitch.me/)
+5 | File Metadata Microservice | Receives an uploaded file, returns file info in JSON format; made with Express, Node.js, multer | [Website](https://viridian-coin.glitch.me/)
+
+ 
+Information Security And Quality Assurance Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
+---
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Metric-Imperial Converter |Metric to imperial converter and vice-versa; made with Express, Node.js | [Website](https://mercury-truck.glitch.me/)
+2 | Issue Tracker | Github-like issue tracker for version control; made with Express, Node.js, mongoDB | [Website](https://buttercup-treatment.glitch.me/)
+3 | Personal Library | Stores book titles and display book information with user comments; made with Express, Node.js and Mongo.db | [Website](https://airy-product.glitch.me/)
+4 | Stock Price Checker | NASDAQ stock price checker with a like count system; made with Express, Node.js, mongoDB, Alphaventure API | [Website](https://picturesque-veil.glitch.me/)
+5 | Anon Message Board | An anonymous message board with multiple sub-topics; made with Express, Node.js, mongoDB | [Website](https://useful-yoke.glitch.me/b/general/)
+6 | Sudoku Solver | A webapp to play sudoku, users can insert their custom sudoku problem and use thesudoku algorithm to solve it automatically; made with Express, Node.js | [Website](https://sugared-clumsy-snagglefoot.glitch.me/)
+7 | American British Translator | (In Progress) | |
    
-3. Personal Library
-   1. Stores book titles and display book information with comments on request. Made with Express, Node.js, mongoDB
-   2. Glitch: https://airy-product.glitch.me/
-   
-4. Stock Price Checker
-   1. NASDAQ stock price checker with user-like count system. Made with Express, Node.js, mongoDB, Alphaventure API
-   2. Glitch: https://picturesque-veil.glitch.me/
-   
-5. Anon Message Board
-   1. An anonymous 4chan-like message board / forum. Made with Express, Node.js, mongoDB
-   2. Glitch  https://useful-yoke.glitch.me/b/general/
