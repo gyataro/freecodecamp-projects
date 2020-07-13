@@ -3,7 +3,20 @@ All my freecodecamp full stack web dev & Python projects
 
 My developer certification can be seen [here](https://www.freecodecamp.org/certification/mrgernae/full-stack)
 
-Responsive Web Design Certification ([Credentials](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
+1. [ Description. ](#desc)
+2. [ Usage tips. ](#usage)
+
+<a name="desc"></a>
+## 1. Description
+
+sometext
+
+<a name="usage"></a>
+## 2. Usage tips
+
+sometext
+
+Responsive Web Design Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
@@ -13,8 +26,9 @@ No. | Title | Project Desc. | Link |
 4 | Technical Documentation | An online technical documentation for a plane produced by Mitsubishi Heavy Industries | [Website](https://codepen.io/XTeoh/full/Nompdd)
 5 | Personal Portfolio | My first personal portfolio | [Website](https://codepen.io/XTeoh/full/aMjpdV)
 
+<br />
 
-Javascript Algorithms & Data Structures Certification ([Credentials](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
+Javascript Algorithms & Data Structures Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
@@ -24,6 +38,7 @@ No. | Title | Project Desc. | Link |
 4 | US Telephone Number Validator | Check if phone number is in valid US format | [Source](https://github.com/Gern-Yataro/Freecodecamp-Projects/blob/master/Javascript%20Algorithms%20%26%20Data%20Structures/telephone_validator.js)
 5 | Cash Register | Cash register system to calculate change in specific coins (e.g. x nickels y dimes) | [Source](https://github.com/Gern-Yataro/Freecodecamp-Projects/blob/master/Javascript%20Algorithms%20%26%20Data%20Structures/cash_register.js)
 
+<br />
 
 Front End Libraries Projects ([Credential](https://www.freecodecamp.org/certification/mrgernae/front-end-libraries))
 ---
@@ -35,6 +50,7 @@ No. | Title | Project Desc. | Link |
 4 | Pomodoro Clock | A timer with duration settings, able to pause, resume & reset time; made with React | [Website](https://codepen.io/XTeoh/full/wbzKGg)
 5 | Drum Machine | A drum kit with two bank modes, volume settings & responsive mobile design, can be played via keyboard or mouse; made with React | [Website](https://codepen.io/XTeoh/full/RmGbeX)
 
+<br />
 
 Data Visualization Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/data-visualization))
 ---
@@ -46,7 +62,8 @@ No. | Title | Project Desc. | Link |
 4 | D3 Choropleth Map | US education attainment map - percentage of adults age 25 and older with a bachelor's degree or higher, sorted by county; made with D3.js | [Website](https://codepen.io/XTeoh/full/rgGvKy)
 5 | D3 Treemap Diagram | Top 100 most sold video games by platform; made with D3.js | [Website](https://codepen.io/XTeoh/full/dEZEWQ)
 
-   
+<br />
+
 Apis And Microservices Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/apis-and-microservices))
 ---
 No. | Title | Project Desc. | Link |
@@ -57,6 +74,7 @@ No. | Title | Project Desc. | Link |
 4 | Exercise Tracker REST API | Registers new users, store their exercise history and returns exercise log on request; made with Node.js, Express and Mongo.db | [Website](https://satin-telescope.glitch.me/)
 5 | File Metadata Microservice | Receives an uploaded file, returns file info in JSON format; made with Express, Node.js, multer | [Website](https://viridian-coin.glitch.me/)
 
+<br />
  
 Information Security And Quality Assurance Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
 ---
