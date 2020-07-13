@@ -3,20 +3,20 @@ All my freecodecamp full stack web dev & Python projects
 
 My developer certification can be seen [here](https://www.freecodecamp.org/certification/mrgernae/full-stack)
 
-1. [ Description. ](#desc)
-2. [ Usage tips. ](#usage)
+<br />
 
-<a name="desc"></a>
-## 1. Description
+## Table of Contents
+1. [ Responsive Web Design Certification ](#course1)
+2. [ Javascript Algorithms & Data Structures Certification ](#course2)
+3. [ Front End Libraries Projects ](#course3)
+4. [ Data Visualization Certification ](#course4)
+5. [ Apis And Microservices Certification ](#course5)
+6. [ Information Security And Quality Assurance Certification ](#course6)
 
-sometext
+<br />
 
-<a name="usage"></a>
-## 2. Usage tips
-
-sometext
-
-Responsive Web Design Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
+<a name="course1"></a>
+## 1. Responsive Web Design Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
@@ -28,7 +28,8 @@ No. | Title | Project Desc. | Link |
 
 <br />
 
-Javascript Algorithms & Data Structures Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
+<a name="course2"></a>
+## 2. Javascript Algorithms & Data Structures Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
@@ -40,6 +41,7 @@ No. | Title | Project Desc. | Link |
 
 <br />
 
+<a name="course3"></a>
 Front End Libraries Projects ([Credential](https://www.freecodecamp.org/certification/mrgernae/front-end-libraries))
 ---
 No. | Title | Project Desc. | Link |
@@ -52,6 +54,7 @@ No. | Title | Project Desc. | Link |
 
 <br />
 
+<a name="course4"></a>
 Data Visualization Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/data-visualization))
 ---
 No. | Title | Project Desc. | Link |
@@ -64,6 +67,7 @@ No. | Title | Project Desc. | Link |
 
 <br />
 
+<a name="course5"></a>
 Apis And Microservices Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/apis-and-microservices))
 ---
 No. | Title | Project Desc. | Link |
@@ -75,7 +79,8 @@ No. | Title | Project Desc. | Link |
 5 | File Metadata Microservice | Receives an uploaded file, returns file info in JSON format; made with Express, Node.js, multer | [Website](https://viridian-coin.glitch.me/)
 
 <br />
- 
+
+<a name="course6"></a>
 Information Security And Quality Assurance Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
 ---
 No. | Title | Project Desc. | Link |
