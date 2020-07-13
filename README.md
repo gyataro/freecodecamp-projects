@@ -16,7 +16,7 @@ My developer certification can be seen [here](https://www.freecodecamp.org/certi
 <br />
 
 <a name="course1"></a>
-## 1. Responsive Web Design Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
+Responsive Web Design Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/responsive-web-design))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
@@ -29,7 +29,7 @@ No. | Title | Project Desc. | Link |
 <br />
 
 <a name="course2"></a>
-## 2. Javascript Algorithms & Data Structures Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
+Javascript Algorithms & Data Structures Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/javascript-algorithms-and-data-structures))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
