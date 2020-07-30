@@ -59,7 +59,7 @@ Data Visualization Certification ([Credential](https://www.freecodecamp.org/cert
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
-1 | D3 Bar Chart | United States' GDP from 1947 to 2015; made with AJAX & D3.js | [Website](https://codepen.io/XTeoh/full/pqLJxO)
+1 | D3 Bar Chart | United States' GDP from 1947 to 2015; made with AJAX & D3.js | [Website](https://codepen.io/XTeoh/full/NVgqNw)
 2 | D3 Scatterplot Graph | Cases of doping in professional bicycle racing; made with AJAX & D3.js | [Website](https://codepen.io/XTeoh/full/XwgovP)
 3 | D3 Heat Map | Monthly global land-surface temperature from 1753 to 2015; made with D3.js | [Website](https://codepen.io/XTeoh/full/RmZEoe)
 4 | D3 Choropleth Map | US education attainment map - percentage of adults age 25 and older with a bachelor's degree or higher, sorted by county; made with D3.js | [Website](https://codepen.io/XTeoh/full/rgGvKy)
@@ -92,4 +92,12 @@ No. | Title | Project Desc. | Link |
 5 | Anon Message Board | An anonymous message board with multiple sub-topics; made with Express, Node.js, mongoDB | [Website](https://useful-yoke.glitch.me/b/general/)
 6 | Sudoku Solver | A webapp to play sudoku, users can insert their custom sudoku problem and use thesudoku algorithm to solve it automatically; made with Express, Node.js | [Website](https://sugared-clumsy-snagglefoot.glitch.me/)
 7 | American British Translator | (In Progress) | |
+
+<a name="course7"></a>
+Scientific Computing with Python ([Credential](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
+---
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Arithmetic Formatter | Receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side | [Website](https://repl.it/@Gern_Yataro/fcc-arithmetic-arranger#arithmetic_arranger.py)
+
    
