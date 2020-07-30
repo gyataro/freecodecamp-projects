@@ -93,8 +93,10 @@ No. | Title | Project Desc. | Link |
 6 | Sudoku Solver | A webapp to play sudoku, users can insert their custom sudoku problem and use thesudoku algorithm to solve it automatically; made with Express, Node.js | [Website](https://sugared-clumsy-snagglefoot.glitch.me/)
 7 | American British Translator | (In Progress) | |
 
+<br />
+
 <a name="course7"></a>
-Scientific Computing with Python ([Credential](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
+Scientific Computing with Python
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
