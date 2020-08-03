@@ -6,12 +6,16 @@ My developer certification can be seen [here](https://www.freecodecamp.org/certi
 <br />
 
 ## Table of Contents
+### Full Stack Web Development & Information Security
 1. [ Responsive Web Design Certification ](#course1)
 2. [ Javascript Algorithms & Data Structures Certification ](#course2)
 3. [ Front End Libraries Projects ](#course3)
 4. [ Data Visualization Certification ](#course4)
 5. [ Apis And Microservices Certification ](#course5)
-6. [ Information Security And Quality Assurance Certification ](#course6)
+6. [ Quality Assurance Certification ](#course6)
+
+### Python, Data Analysis & Machine Learning
+7. [ Scientific Computing with Python ](#course7)
 
 <br />
 
@@ -96,10 +100,16 @@ No. | Title | Project Desc. | Link |
 <br />
 
 <a name="course7"></a>
-Scientific Computing with Python
+Scientific Computing with Python Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/scientific-computing-with-python-v7))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
-1 | Arithmetic Formatter | Receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side | [Website](https://repl.it/@Gern_Yataro/fcc-arithmetic-arranger#arithmetic_arranger.py)
+1 | Arithmetic Formatter | Receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side | [Source](https://repl.it/@Gern_Yataro/fcc-arithmetic-arranger)
+2 | Time Calculator | A function that adds the duration time to the start time and return the result | [Source](https://repl.it/@Gern_Yataro/fcc-time-calculator)
+3 | Budget App | A "Category" class that can be used to create different budget categories, with ledger record and chart | [Source](https://repl.it/@Gern_Yataro/fcc-budget-app)
+4 | Shape Calculator | A Rectangle class and a Square class. The Square class is a subclass of Rectangle and inherit its methods and attributes | [Source](https://repl.it/@Gern_Yataro/fcc-shape-calculator)
+5 | A program that determines the approximate probability of drawing certain coloured balls randomly from a hat | [Source](https://repl.it/@Gern_Yataro/fcc-probability-calculator)
+
+<br />
 
    
