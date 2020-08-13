@@ -16,6 +16,7 @@ My developer certification can be seen [here](https://www.freecodecamp.org/certi
 
 ### Python, Data Analysis & Machine Learning
 7. [ Scientific Computing with Python ](#course7)
+8. [ Data Analysis with Python ](#course8)
 
 <br />
 
@@ -108,8 +109,15 @@ No. | Title | Project Desc. | Link |
 2 | Time Calculator | A function that adds the duration time to the start time and return the result | [Source](https://repl.it/@Gern_Yataro/fcc-time-calculator)
 3 | Budget App | A "Category" class that can be used to create different budget categories, with ledger record and chart | [Source](https://repl.it/@Gern_Yataro/fcc-budget-app)
 4 | Shape Calculator | A Rectangle class and a Square class. The Square class is a subclass of Rectangle and inherit its methods and attributes | [Source](https://repl.it/@Gern_Yataro/fcc-shape-calculator)
-5 | A program that determines the approximate probability of drawing certain coloured balls randomly from a hat | [Source](https://repl.it/@Gern_Yataro/fcc-probability-calculator)
+5 | Probability Calculator | A program that determines the approximate probability of drawing certain coloured balls randomly from a hat | [Source](https://repl.it/@Gern_Yataro/fcc-probability-calculator)
 
 <br />
+
+<a name="course8"></a>
+Data Analysis with Python Certification
+---
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Mean-Variance-Standard Deviation Calculator | A function that uses Numpy to output the mean, variance, and standard deviation of the rows, columns, and elements in a 3 x 3 matrix. | [Source](https://repl.it/@Gern_Yataro/fcc-mean-var-std)
 
    
