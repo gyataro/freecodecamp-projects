@@ -120,5 +120,6 @@ No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
 1 | Mean-Variance-Standard Deviation Calculator | A function that uses Numpy to output the mean, variance, and standard deviation of the rows, columns, and elements in a 3 x 3 matrix. | [Source](https://repl.it/@Gern_Yataro/fcc-mean-var-std)
 2 | Demographic Data Analyzer | Analyze demographic data using Pandas, given a dataset of demographic data that was extracted from the 1994 U.S. Census database. | [Source](https://repl.it/@Gern_Yataro/fcc-demographic-data-analyzer)
+3 | Medical Data Visualizer | Visualize and make correlative calculations from medical examination data using matplotlib, seaborn, and pandas. | [Source](https://repl.it/@Gern_Yataro/fcc-medical-data-visualizer)
 
    
