@@ -114,13 +114,13 @@ No. | Title | Project Desc. | Link |
 <br />
 
 <a name="course8"></a>
-Data Analysis with Python Certification
+Data Analysis with Python Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/data-analysis-with-python-v7))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
 1 | Mean-Variance-Standard Deviation Calculator | A function that uses Numpy to output the mean, variance, and standard deviation of the rows, columns, and elements in a 3 x 3 matrix. | [Source](https://repl.it/@Gern_Yataro/fcc-mean-var-std)
 2 | Demographic Data Analyzer | Analyze demographic data using Pandas, given a dataset of demographic data that was extracted from the 1994 U.S. Census database. | [Source](https://repl.it/@Gern_Yataro/fcc-demographic-data-analyzer)
-3 | Medical Data Visualizer | Visualize and make correlative calculations from medical examination data using matplotlib, seaborn, and pandas. | [Source](https://repl.it/@Gern_Yataro/fcc-medical-data-visualizer) <br /> & [Graphs](https://imgur.com/a/i9p4CIb)
-4 | Time Series Visualizer | Visualize a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03 using a line chart, bar chart, and box plots using Pandas, matplotlib, and seaborn. | [Source](https://repl.it/@Gern_Yataro/fcc-time-series-visualizer) <br /> & [Graphs](https://imgur.com/a/BWwAl4I)
-5 | Sea Level Predictor | Analyze a dataset of the global average sea level change since 1880 and predict the sea level change through year 2050 via linear regression. | [Source](https://repl.it/@Gern_Yataro/fcc-sea-level-predictor) <br /> & [Graphs](https://repl.it/@Gern_Yataro/fcc-sea-level-predictor#sea_level_plot.png)
+3 | Medical Data Visualizer | Visualize and make correlative calculations from medical examination data using matplotlib, seaborn, and pandas. | [Source](https://repl.it/@Gern_Yataro/fcc-medical-data-visualizer) <br /> [Graphs](https://imgur.com/a/i9p4CIb)
+4 | Time Series Visualizer | Visualize a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03 using a line chart, bar chart, and box plots using Pandas, matplotlib, and seaborn. | [Source](https://repl.it/@Gern_Yataro/fcc-time-series-visualizer) <br /> [Graphs](https://imgur.com/a/BWwAl4I)
+5 | Sea Level Predictor | Analyze a dataset of the global average sea level change since 1880 and predict the sea level change through year 2050 via linear regression. | [Source](https://repl.it/@Gern_Yataro/fcc-sea-level-predictor) <br /> [Graphs](https://repl.it/@Gern_Yataro/fcc-sea-level-predictor#sea_level_plot.png)
    
