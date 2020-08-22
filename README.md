@@ -15,8 +15,9 @@ My developer certification can be seen [here](https://www.freecodecamp.org/certi
 6. [ Quality Assurance Certification ](#course6)
 
 ### Python, Data Analysis & Machine Learning
-7. [ Scientific Computing with Python ](#course7)
-8. [ Data Analysis with Python ](#course8)
+7. [ Scientific Computing with Python Certification ](#course7)
+8. [ Data Analysis with Python Certification ](#course8)
+9. [ Information Security Certification ](#course9)
 
 <br />
 
@@ -86,17 +87,15 @@ No. | Title | Project Desc. | Link |
 <br />
 
 <a name="course6"></a>
-Information Security And Quality Assurance Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
+Quality Assurance Certification ([Credential](https://www.freecodecamp.org/certification/mrgernae/information-security-and-quality-assurance))
 ---
 No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
 1 | Metric-Imperial Converter |Metric to imperial converter and vice-versa; made with Express, Node.js | [Website](https://mercury-truck.glitch.me/)
 2 | Issue Tracker | Github-like issue tracker for version control; made with Express, Node.js, mongoDB | [Website](https://buttercup-treatment.glitch.me/)
 3 | Personal Library | Stores book titles and display book information with user comments; made with Express, Node.js and Mongo.db | [Website](https://airy-product.glitch.me/)
-4 | Stock Price Checker | NASDAQ stock price checker with a like count system; made with Express, Node.js, mongoDB, Alphaventure API | [Website](https://picturesque-veil.glitch.me/)
-5 | Anon Message Board | An anonymous message board with multiple sub-topics; made with Express, Node.js, mongoDB | [Website](https://useful-yoke.glitch.me/b/general/)
-6 | Sudoku Solver | A webapp to play sudoku, users can insert their custom sudoku problem and use thesudoku algorithm to solve it automatically; made with Express, Node.js | [Website](https://sugared-clumsy-snagglefoot.glitch.me/)
-7 | American British Translator | (In Progress) | |
+4 | Sudoku Solver | A webapp to play sudoku, users can insert their custom sudoku problem and use thesudoku algorithm to solve it automatically; made with Express, Node.js | [Website](https://sugared-clumsy-snagglefoot.glitch.me/)
+5 | American British Translator | (In Progress) | |
 
 <br />
 
@@ -123,4 +122,13 @@ No. | Title | Project Desc. | Link |
 3 | Medical Data Visualizer | Visualize and make correlative calculations from medical examination data using matplotlib, seaborn, and pandas. | [Source](https://repl.it/@Gern_Yataro/fcc-medical-data-visualizer) <br /> [Graphs](https://imgur.com/a/i9p4CIb)
 4 | Time Series Visualizer | Visualize a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03 using a line chart, bar chart, and box plots using Pandas, matplotlib, and seaborn. | [Source](https://repl.it/@Gern_Yataro/fcc-time-series-visualizer) <br /> [Graphs](https://imgur.com/a/BWwAl4I)
 5 | Sea Level Predictor | Analyze a dataset of the global average sea level change since 1880 and predict the sea level change through year 2050 via linear regression. | [Source](https://repl.it/@Gern_Yataro/fcc-sea-level-predictor) <br /> [Graphs](https://repl.it/@Gern_Yataro/fcc-sea-level-predictor#sea_level_plot.png)
-   
+
+<br />
+
+<a name="course9"></a>
+Information Security Certification
+---
+No. | Title | Project Desc. | Link |
+--- | ----- | ------------- | ---- |
+1 | Stock Price Checker | NASDAQ stock price checker with a like count system; made with Express, Node.js, mongoDB, Alphaventure API | [Website](https://picturesque-veil.glitch.me/)
+2 | Anon Message Board | An anonymous message board with multiple sub-topics; made with Express, Node.js, mongoDB | [Website](https://useful-yoke.glitch.me/b/general/)
