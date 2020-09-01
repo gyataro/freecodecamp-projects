@@ -1,0 +1,22 @@
+const gameSettings = {
+  canvasWidth: 640,
+  canvasHeight: 480, 
+  xBoundMax: 615,
+  yBoundMax: 455,
+
+  playerWidth: 25,
+  playerHeight: 25,
+  playerSpeed: 5,
+  playerColour: '#D81E5B',
+  otherColour: '#EB5E55',
+
+  coinWidth: 10,
+  coinColour: '#FDF0D5',
+  coinValue: 2
+}
+
+try {
+  module.exports = gameSettings;
+} catch(e) {}
+
+export default gameSettings;
