@@ -132,3 +132,6 @@ No. | Title | Project Desc. | Link |
 --- | ----- | ------------- | ---- |
 1 | Stock Price Checker | NASDAQ stock price checker with a like count system; made with Express, Node.js, mongoDB, Alphaventure API | [Website](https://picturesque-veil.glitch.me/)
 2 | Anon Message Board | An anonymous message board with multiple sub-topics; made with Express, Node.js, mongoDB | [Website](https://useful-yoke.glitch.me/b/general/)
+3 | Port Scanner | Open port scanner via IPv4 or hostname, made with Python | [Source](https://repl.it/@Gern_Yataro/fcc-port-scanner)
+4 | SHA-1 Password Cracker | A function that takes in a SHA-1 hash of a password and returns the password if it is one of the top 10,000 passwords used | [Source](https://repl.it/@Gern_Yataro/fcc-brute-force-password-cracker)
+5 | Secure Real Time Multiplayer Game | A 2D real time multiplayer game made with the HTML Canvas API and Socket.io | [Start Server](https://repl.it/@Gern_Yataro/fcc-multiplayer) <br /> [Client](http://fcc-multiplayer.gern_yataro.repl.co)
